@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  server1:
+    image: nginx
+    ports:
+      - "6060:80"
+  server2:
+    image: tomee
+    ports:
+      - "6065:8080"
